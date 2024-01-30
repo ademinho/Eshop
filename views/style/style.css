@@ -1,0 +1,80 @@
+@font-face {
+    font-family: RedHat;
+    src: url(../../assets/font/font/RedHatDisplay-VariableFont_wght.ttf);
+}
+
+
+
+
+body {
+    color: black;
+    margin: O;
+    font-family: 'RedHat';
+}
+
+
+nav{
+    position: fixed;
+    width: 100vw;
+    background: rgba(255, 255, 255, 0.26);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+}
+
+
+
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none ;
+    color: black;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+}
+
+.wrapper h1{
+    margin: O;
+    padding-top: 4rem;
+}
+
+.wrapper img{
+    margin-top: 2rem;
+    width: 15rem;
+    height:  15rem;
+}
+
+.wrapper{
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Trois colonnes égales */
+    gap: 13px; /* Espacement entre les cellules */
+}
+
+.button{
+    border-radius: 0%;
+    border: none;
+    
+}
+
+.product{
+    right: auto;
+}
