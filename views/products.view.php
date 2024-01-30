@@ -10,8 +10,7 @@ include '../config/cURL.php';
 
     <ul class="grid">
         <?php foreach($products as $product) :  ?>
-            <li>
-                <a href="home.view.php?test=2">Lien test</a>
+            <li class="coca">        
                 <a href="product.view.php?product=<?= $product['id'] ?>"><img src="<?= $product['image'] ?>" alt=""></a>
                 <h2><?= $product['title'] ?></h2>
                 <h3><?= substr($product['description'], 0, 50) ?> ...</h3>

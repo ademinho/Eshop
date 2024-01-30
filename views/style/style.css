@@ -21,6 +21,7 @@ nav{
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
+    background-color: white;
 }
 
 
@@ -77,4 +78,11 @@ nav ul {
 
 .product{
     right: auto;
+}
+
+.coca{
+    border: 1px solid black ;
+    border-radius: 15px;
+    list-style-type: none;
+    text-align: center;
 }
