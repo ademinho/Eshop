@@ -12,6 +12,11 @@ body {
     font-family: 'RedHat';
 }
 
+.error{
+    text-align: center;
+    color: red;
+}
+
 
 nav{
     position: fixed;
@@ -23,6 +28,7 @@ nav{
     -webkit-backdrop-filter: blur(15px);
     background-color: white;
 }
+
 
 
 
@@ -78,7 +84,12 @@ nav ul {
 
 .product{
     right: auto;
+    border: 1px solid black ;
+    border-radius: 15px;
+    list-style-type: none;
+    text-align: center;
 }
+
 
 .coca{
     border: 1px solid black ;
@@ -86,3 +97,41 @@ nav ul {
     list-style-type: none;
     text-align: center;
 }
+
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+form input{
+    width: 15rem;
+    height: 1.5rem;
+    margin-top: 0.5rem;
+    border-radius: 3%;
+}
+
+input[type="submit"]{
+    width: 15.5rem;
+    height:2rem;
+    background-color: green;
+}
+
+.title{
+    margin-bottom: 4rem;
+
+}
+
+
+.log{
+    text-align: center;
+}
+
+.success {
+    color: blue;
+    text-align: center;
+    padding-top: 15rem;
+    
+}
+
+

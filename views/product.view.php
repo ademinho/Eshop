@@ -13,7 +13,7 @@ if (isset($_GET['product'])) {
 
     <?php foreach($products as $product) : ?>
         <?php if ($id == $product['id']) : ?>
-            <div class="product">
+            <div class="product">|||
                 <a href="#"><img src="<?= $product['image'] ?>" alt=""></a>
                 <h2><?= $product['title'] ?></h2>
                 <h3><?= substr($product['description'], 0, 50) ?> ...</h3>
