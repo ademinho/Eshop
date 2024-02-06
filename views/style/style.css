@@ -76,9 +76,11 @@ nav ul {
     gap: 13px; /* Espacement entre les cellules */
 }
 
-.button{
-    border-radius: 0%;
+button{
     border: none;
+    background-color: darkslategray;
+    color: aliceblue;
+    border-radius: 6px;
     
 }
 
@@ -108,7 +110,15 @@ form input{
     width: 15rem;
     height: 1.5rem;
     margin-top: 0.5rem;
-    border-radius: 3%;
+    border-radius: 6px;
+    border: solid 1px gray;
+
+}
+
+textarea{
+    height: 8rem;
+    resize: none;
+
 }
 
 input[type="submit"]{
@@ -134,4 +144,15 @@ input[type="submit"]{
     
 }
 
+#profile-avatar img {
+    border-radius: 100%;
+}
+
+.ines{
+    padding: 0.5rem;
+    border: none;
+    background-color: rgb(58, 141, 173);
+    border-radius: 8px;
+    color: aliceblue;
+}
 
